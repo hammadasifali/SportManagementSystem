@@ -2,7 +2,11 @@
 
 ## Overview
 
-The Sports Tournament Management System is a Java Swing application designed to facilitate the management of sports tournaments, teams, players, and related information. The system provides a user-friendly interface for administrators to add, update, and delete data, as well as view and organize tournament details.
+The Sports Tournament Management System is a Java-based Object-Oriented Programming (OOP) application utilizing Java Swing for the graphical user interface and JDBC (Java Database Connectivity) to interact with a Microsoft Access database. This system aims to streamline the management of sports tournaments, teams, players, and related information, providing administrators with a robust tool for organizing and overseeing various aspects of sports events.
+
+## Object-Oriented Design
+
+The project follows Object-Oriented Design principles, employing classes and abstraction to model real-world entities. The system is divided into several classes, each responsible for managing specific entities such as departments, members, players, teams, tournaments, schedules, and results. The use of inheritance and abstract classes enhances code reusability and maintainability.
 
 ## Features
 
@@ -38,6 +42,7 @@ The Sports Tournament Management System is a Java Swing application designed to 
 
 - **Java Swing:** Provides a graphical user interface for easy interaction.
 - **JDBC (Java Database Connectivity):** Enables interaction with a Microsoft Access database.
+- **Object-Oriented Programming (OOP):** Utilizes classes, inheritance, and abstraction for a modular and maintainable codebase.
 - **Microsoft Access Database:** Stores and manages data related to departments, members, players, teams, tournaments, schedules, and results.
 
 ## Getting Started
@@ -54,14 +59,11 @@ The Sports Tournament Management System is a Java Swing application designed to 
 4. **Explore the Features:**
    - Navigate through different sections to manage departments, members, players, teams, tournaments, schedules, and results.
 
-## Contributors
+## Object-Oriented Design
 
-- (Add your name if you contributed to the project)
+The project follows a clear object-oriented design with distinct classes for each entity, fostering modularity and code reuse. Abstraction is employed through abstract classes, allowing for consistent methods across different entities.
+
 
 ## License
 
 - This project is licensed under the [MIT License](LICENSE), allowing flexibility in use, modification, and distribution.
-
-## Acknowledgments
-
-- Special thanks to the developers and contributors who worked on creating this Sports Tournament Management System using Java Swing.
